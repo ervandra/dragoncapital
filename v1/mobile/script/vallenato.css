@@ -1,0 +1,61 @@
+#accordion-container {
+	font-size: 1em;
+	padding: 5px 10px 10px 10px;/*border: 1px solid #cccccc;
+	background: #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 5px 15px #cccccc;
+	-webkit-box-shadow: 0 5px 15px #cccccc;
+	box-shadow: 0 5px 15px #cccccc;*/
+}
+.accordion-header {
+	font-family:title;
+	font-size: 1em;
+	background: #1FA7DF;
+	margin: 5px 0 0 0;
+	padding: 5px 20px;
+	/* border: 1px solid #cccccc; */
+	cursor: pointer;
+	color: #FFFFFF;
+	/* -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; */
+}
+.active-header {
+	/* -moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0; */
+	background: url(button-up.png) #1FA7DF;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+.active-header:hover {
+	background: url(button-up.png) #1FA7DF;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+.inactive-header {
+	background: url(button-down.png) #1FA7DF;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.inactive-header:hover {
+	background: url(button-down.png) #1FA7DF;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+.accordion-content {
+	display: none;
+	padding: 20px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-top: 0;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	width:100%!important;
+}
